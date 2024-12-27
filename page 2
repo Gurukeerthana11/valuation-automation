@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="valuation_automation.css">
+    <title>Document</title>
+</head>
+
+<body><div class="box"><center>
+    <style>
+        body {
+          background-image: url('bg.png');
+        }
+        </style>
+    <div class="role">
+    <div class="container1">Welcome back,@USERNAME</div>
+    <div class="container2"><a href="dashboard.html">click here</a>to view your individual dashboard</div>
+    <div class="chooserole">
+           <div>Choose your role</div>
+           <div><a href="page2.html">Teaching staff</a></div>
+           <div><a href="page3.html">Non-Teaching staff</a></div>
+    </div>
+</center></div>
+</body>
+</html>
