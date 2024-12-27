@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="valuation_automation.css">
+    <title>login page</title>
+</head>
+<body>
+<class="bg">
+    <div class="main">
+    <div class="formbox">
+    <h2 class="text"> Welcome back!</h2>
+   <div class="logo"><center><img src="bitlogo.png" height="200" width="200" display="flex"></center> </div>
+    <div>
+        <form action=""><center>
+            <h4 class="one">SIGN UP WITH YOUR BITSATHY ACCOUNT</h4>
+            <div>
+                <label class="username" for="name">Username</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+           <br>
+            <div>
+                <label for="psw">Password</label>
+                <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            </div>
+            <br><br>
+            <div>create a new account? <a href="create.html">Click here</a></div>
+            <br><br>
+            <div class="btn">
+            <input type="submit" onclick="myFunction()">
+            <script>
+            function myFunction(){window.location.href="page1.html";}
+            </script>
+            </center>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
